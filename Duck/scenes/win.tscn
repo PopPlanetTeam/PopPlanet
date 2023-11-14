@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://k2e6sb5u481l"]
+
+[node name="Win" type="Node2D"]
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_right = 1153.0
+offset_bottom = 642.0
+color = Color(0.352941, 0.352941, 0.352941, 1)
+
+[node name="Label" type="Label" parent="."]
+offset_left = 414.0
+offset_top = 275.0
+offset_right = 716.0
+offset_bottom = 345.0
+theme_override_font_sizes/font_size = 48
+text = "Você venceu!"
